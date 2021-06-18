@@ -1,0 +1,13 @@
+$primary-color: #d00000;
+$secondary-color: rgba(68, 72, 73, 0.733);
+
+@mixin btn {
+  background: $primary-color;
+  padding: 1rem;
+  text-align: center;
+}
+
+@mixin faq {
+  padding: 1.5em;
+  background: $secondary-color;
+}
